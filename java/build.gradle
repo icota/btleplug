@@ -41,3 +41,12 @@ dependencies {
     implementation 'com.github.deviceplug:jni-utils-rs:0.1.1'
 }
 
+publishing {
+    publications {
+        maven(MavenPublication) {
+            groupId = 'io.github.icota'
+            artifactId = 'droidplug'
+            version = '1.0'
+        }
+    }
+}
