@@ -21,6 +21,8 @@ repositories {
 }
 
 android {
+    namespace = "io.github.icota.droidplug"
+
     compileSdkVersion 34
 
     defaultConfig {
@@ -38,3 +40,4 @@ android {
 dependencies {
     implementation 'com.github.deviceplug:jni-utils-rs:0.1.1'
 }
+
